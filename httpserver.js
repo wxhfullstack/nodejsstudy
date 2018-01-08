@@ -3,8 +3,9 @@ const http=require('http');
 //创建http server
 var server = http.createServer(function(req,res){
   //console.log('http connected' + req + 'res:' +res);
-  //输出东西到页面上
-  res.write('result is showing');
+  
+  //输出到页面上
+  //res.write('result is showing');
 
   //
   switch (req.url) {
